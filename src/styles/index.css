@@ -1,0 +1,26 @@
+@tailwind base;
+
+html, body {
+	height: 100%;
+	@apply bg-discord-blurple-560;
+}
+
+img {
+	display: inline-block;
+	margin: 0 !important;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+.noprose {
+	margin: 0 !important;
+}
+
+.noprose p {
+	margin: 0 !important;
+}
+
+.noprose li {
+	margin: 0 !important;
+}
